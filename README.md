@@ -225,18 +225,7 @@ visitors (1) ──────── (many) messages
 
 ---
 
-## 📊 Interaction Flow
 
-### 1. Detection
-A visitor taps an RFID card.
-
-### 2. Authentication
-`bridge.py` checks Supabase to determine if the user is currently checked in.
-
-### 3. Session Start
-If new, the HUD triggers a registration animation using GSAP.
-
-### 4. AI Voyage
 Visitor interactions are processed by Gemini 1.5 Flash and logged for analytics.
 
 ### 5. Termination
